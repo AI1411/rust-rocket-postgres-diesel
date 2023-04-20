@@ -6,7 +6,7 @@ use rocket::{
 
 use rockets::{
     ApiError,
-    models::{NewPost, Post, UpdatePost},
+    models::post::{NewPost, Post, UpdatePost},
     PgConnection,
     schema::posts,
 };
