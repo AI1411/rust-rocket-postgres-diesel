@@ -7,7 +7,5 @@ services:
       - "5432:5432"
     volumes:
       - ./docker/postgres/data:/var/lib/postgresql/data
-    environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: rockets
+    env_file:
+      - .env
