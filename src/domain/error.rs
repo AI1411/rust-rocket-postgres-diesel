@@ -1,4 +1,3 @@
-#[macro_use]
 use rocket::serde::{Serialize, Deserialize};
 
 #[derive(Queryable, Serialize, Deserialize)]

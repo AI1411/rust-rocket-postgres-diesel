@@ -1,7 +1,6 @@
 pub mod schema;
 pub mod domain;
 pub mod controller;
-pub mod infra;
 
 #[macro_use]
 extern crate diesel;

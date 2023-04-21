@@ -1,6 +1,6 @@
 use rockets::{
     PgConnection,
-    controller::post::post_controller::{list, retrieve, create, update, destroy},
+    controller::post_controller::{list, retrieve, create, update, destroy},
 };
 
 #[rocket::launch]
